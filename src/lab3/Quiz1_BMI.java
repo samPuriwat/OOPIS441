@@ -10,11 +10,12 @@ public class Quiz1_BMI {
 
         System.out.print("Enter your weight: ");
         w = sc.nextDouble();
-        System.out.print("Enter your height: ");
+        System.out.print("Enter your height (m): ");
         h = sc.nextDouble();
 
         //calculate BMI
         double bmi = w / (h * h);
+        System.out.println("BMI = "+bmi);
         //Test condition
         if (bmi <18.50)
             System.out.println("น้ำหนักน้อย/ผอม");
