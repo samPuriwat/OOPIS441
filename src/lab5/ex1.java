@@ -33,7 +33,6 @@ public class ex1 {
        System.out.println("Sorting Data in array: ");
        showData(myNum);
 
-
     }
 
     private static void findAverage(int[] myNum) {
